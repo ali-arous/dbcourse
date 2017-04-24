@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author ASUS
+ * @author Eng. Ali Arous
  */
 public class TaskPanel extends javax.swing.JFrame {
 
@@ -90,7 +90,11 @@ public class TaskPanel extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    
+    //                              >>  This is what we care for, for now :)
+/********************************************************************************************************************
+*********************************************************************************************************************/
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String s1=jTextField1.getText();
@@ -102,6 +106,8 @@ public class TaskPanel extends javax.swing.JFrame {
         //jButton1.setText(output);
         JOptionPane.showMessageDialog(null,"The sum is: "+output);
     }//GEN-LAST:event_jButton1ActionPerformed
+/********************************************************************************************************************
+*********************************************************************************************************************/
 
     /**
      * @param args the command line arguments
